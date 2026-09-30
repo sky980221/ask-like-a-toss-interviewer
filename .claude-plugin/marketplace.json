@@ -1,0 +1,19 @@
+{
+  "name": "ask-like-a-toss-interviewer-marketplace",
+  "metadata": {
+    "description": "Korean backend mock interview skills"
+  },
+  "owner": {
+    "name": "Sangdon Park"
+  },
+  "plugins": [
+    {
+      "name": "ask-like-a-toss-interviewer",
+      "source": {
+        "source": "github",
+        "repo": "sky980221/ask-like-a-toss-interviewer"
+      },
+      "description": "레포지토리, 포트폴리오 또는 학습 주제를 기반으로 진행하는 한국어 서버 개발자 모의면접"
+    }
+  ]
+}

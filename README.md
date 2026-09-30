@@ -1,6 +1,6 @@
 # Ask Like a Toss Interviewer
 
-레포지토리, 포트폴리오 또는 학습 주제를 바탕으로 한국어 서버 개발자 모의면접을 진행하는 Codex Skill입니다.
+레포지토리, 포트폴리오 또는 학습 주제를 바탕으로 한국어 서버 개발자 모의면접을 진행하는 Codex·Claude Code Skill입니다.
 
 > [!IMPORTANT]
 > 이 프로젝트는 토스와 관련 없는 비공식 개인 프로젝트입니다. 실제 면접 질문, 유출 자료 또는 내부 평가 기준을 포함하지 않으며, 토스의 채용 절차를 재현하거나 대변하지 않습니다.
@@ -29,7 +29,7 @@
 
 입력 없이 스킬만 호출하면 현재 작업 공간을 임의로 면접 대상으로 삼지 않습니다. 먼저 기술 주제, 포트폴리오 또는 면접 대상 레포지토리를 요청합니다.
 
-## 설치
+## Codex 설치
 
 저장소를 복제합니다.
 
@@ -46,9 +46,26 @@ cp -R ask-like-a-toss-interviewer/skills/ask-like-a-toss-interviewer ~/.codex/sk
 
 이미 같은 이름의 스킬이 설치되어 있다면 기존 디렉터리를 직접 덮어쓰지 말고 필요한 변경 사항을 먼저 확인하세요.
 
+## Claude Code 설치
+
+가장 단순한 방법은 같은 스킬 디렉터리를 Claude Code의 개인 스킬 폴더에 복사하는 것입니다.
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R ask-like-a-toss-interviewer/skills/ask-like-a-toss-interviewer ~/.claude/skills/
+```
+
+설치 후 Claude Code에서 다음 명령으로 시작합니다.
+
+```text
+/ask-like-a-toss-interviewer
+```
+
+플러그인과 마켓플레이스를 통한 설치, 프로젝트 단위 설치와 문제 해결 방법은 [Claude Code 사용 가이드](docs/claude-code.md)를 참고하세요.
+
 ## 사용법
 
-스킬만 호출해 면접 자료를 선택할 수 있습니다.
+Codex에서는 `$` 접두사로 호출합니다.
 
 ```text
 $ask-like-a-toss-interviewer
@@ -66,12 +83,23 @@ $ask-like-a-toss-interviewer 이 레포지토리의 주문·결제 모듈을 기
 $ask-like-a-toss-interviewer 트랜잭션 격리 수준을 공부했어. 이 주제로 면접을 진행해줘.
 ```
 
+Claude Code에서는 `/` 명령으로 호출하고 뒤에 요청을 이어서 입력합니다.
+
+```text
+/ask-like-a-toss-interviewer 트랜잭션 격리 수준을 공부했어. 이 주제로 면접을 진행해줘.
+```
+
 면접 중에는 한 번에 하나의 질문만 제시합니다. 평가와 모범 답안은 사용자가 면접을 중단하거나 피드백을 요청한 뒤 제공합니다.
 
 ## 프로젝트 구조
 
 ```text
 .
+├── .claude-plugin/
+│   ├── marketplace.json
+│   └── plugin.json
+├── docs/
+│   └── claude-code.md
 ├── plugin.json
 └── skills/
     └── ask-like-a-toss-interviewer/

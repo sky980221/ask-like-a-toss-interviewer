@@ -1,0 +1,11 @@
+{
+  "name": "ask-like-a-toss-interviewer",
+  "version": "0.2.0",
+  "description": "레포지토리, 포트폴리오 또는 학습 주제를 바탕으로 진행하는 한국어 서버 개발자 모의면접 스킬",
+  "author": {
+    "name": "Sangdon Park"
+  },
+  "homepage": "https://github.com/sky980221/ask-like-a-toss-interviewer",
+  "repository": "https://github.com/sky980221/ask-like-a-toss-interviewer",
+  "license": "MIT"
+}
