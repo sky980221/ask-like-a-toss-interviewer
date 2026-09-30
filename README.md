@@ -1,9 +1,5 @@
 # Ask Like a Toss Interviewer
 
-<p align="center">
-  <img src="assets/mana-tear-crying-doodle.jpg" alt="검은 펜으로 ㅠ ㅠ 표정을 그린 파란 마나 눈물" width="420">
-</p>
-
 레포지토리, 포트폴리오 또는 학습 주제를 바탕으로 한국어 서버 개발자 모의면접을 진행하는 Codex·Claude Code Skill입니다.
 
 > [!IMPORTANT]
