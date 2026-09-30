@@ -1,5 +1,9 @@
 # Ask Like a Toss Interviewer
 
+<p align="center">
+  <img src="assets/crying-mana-tear-thumbnail.jpg" alt="우는 파란 마나 눈물 캐릭터" width="420">
+</p>
+
 레포지토리, 포트폴리오 또는 학습 주제를 바탕으로 한국어 서버 개발자 모의면접을 진행하는 Codex·Claude Code Skill입니다.
 
 > [!IMPORTANT]
@@ -100,6 +104,8 @@ Claude Code에서는 `/` 명령으로 호출하고 뒤에 요청을 이어서 �
 │   └── plugin.json
 ├── docs/
 │   └── claude-code.md
+├── assets/
+│   └── crying-mana-tear-thumbnail.jpg
 ├── plugin.json
 └── skills/
     └── ask-like-a-toss-interviewer/
