@@ -101,7 +101,8 @@ Claude Code에서는 `/` 명령으로 호출하고 뒤에 요청을 이어서 �
 ├── docs/
 │   └── claude-code.md
 ├── assets/
-│   └── mana-tear-crying-doodle.jpg
+│   ├── mana-tear-crying-doodle.jpg
+│   └── social-preview.jpg
 ├── plugin.json
 └── skills/
     └── ask-like-a-toss-interviewer/
