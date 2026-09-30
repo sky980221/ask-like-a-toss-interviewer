@@ -1,0 +1,6 @@
+interface:
+  display_name: "토스 면접관처럼 질문하기"
+  short_description: "레포·자료·공부 주제에서 토스식 꼬리질문을 진행합니다"
+  default_prompt: "$ask-like-a-toss-interviewer를 사용해 모의면접을 진행해줘. 아직 면접 자료나 주제를 제공하지 않았다면 별도 기술 주제, 포트폴리오 업로드, 레포지토리 URL·경로 중 무엇으로 진행할지 먼저 물어봐줘."
+policy:
+  allow_implicit_invocation: true

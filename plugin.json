@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ask-like-a-toss-interviewer",
+  "version": "0.1.0",
+  "description": "Run evidence-based Korean backend mock interviews from a repository, portfolio, job description, or study topic.",
+  "author": {
+    "name": "Sangdon Park",
+    "url": "https://github.com/sky980221"
+  },
+  "homepage": "https://github.com/sky980221/ask-like-a-toss-interviewer",
+  "repository": "https://github.com/sky980221/ask-like-a-toss-interviewer",
+  "license": "MIT",
+  "keywords": [
+    "codex-skill",
+    "backend",
+    "mock-interview",
+    "korean"
+  ]
+}
+
